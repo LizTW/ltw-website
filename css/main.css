@@ -1,7 +1,7 @@
 /*** BASE STYLES***/
 body {
   font-family: 'Quicksand', sans-serif;
-  margins: 10px;
+  margin: 10px;
 }
 
 #header,#about, #skills, #work, #contact {
@@ -9,17 +9,17 @@ body {
 }
 /*** GRID ***/
 .full-width {
-  width: 1200px;
-  margins:10px;
+  width: 1180px;
+  margin:10px;
 }
 .half-width {
-  width: 600px;
-  margins: 10px;
+  width: 560px;
+  margin: 10px;
   float: left;
 }
 .third-width {
-  width: 300px;
-  margins: 10px;
+  width: 230px;
+  margin: 10px;
   float:left;
 }
 
@@ -31,8 +31,8 @@ header {
 }
 header h1 {
     font-family: 'Alex brush',cursive;
-    font-size: 80px;
-    padding: 50px 0;
+    font-size: 60px;
+    padding: 10px 0;
 }
 
 nav {
@@ -81,11 +81,11 @@ nav ul li a {
   text-align: center;
 }
 #skills .full-width {
-  padding: 40px;
+  padding: 20px;
 }
 #skills .third-width {
-  padding: 50px;
-  margins: 50px;
+  padding: 40px;
+  margin: 20px;
 }
 
 /*** WORK ***/
@@ -101,7 +101,7 @@ nav ul li a {
 }
 #work .third-width {
   padding: 30px;
-  margins: 50px;
+  margin: 50px;
 }
 h4 {
   font-size: 18px;
@@ -114,7 +114,7 @@ h4 {
   background: #b3d7d3;
 }
 #contact .full-width {
-    padding: 110px 0;
+    padding: 40px 0;
 }
 
 #contact-img {
@@ -122,7 +122,7 @@ h4 {
 }
 
 #contact h2, #email-header, #socialmedia-header, #contact ul, #contact h3 {
-    padding-left: 115px;
+    padding-left: 40px;
 }
 
 #envelope {
