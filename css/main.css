@@ -57,7 +57,7 @@ nav ul li a {
   text-align: center;
 }
 #about .full-width {
-    padding: 80px 0;
+    padding: 20px 0;
 }
 #about .half-width {
     padding: 50px 0;
@@ -90,7 +90,7 @@ nav ul li a {
 
 /*** WORK ***/
 #work {
-  height: 400px;
+  height: 500px;
 }
 #work {
   text-align: center;
