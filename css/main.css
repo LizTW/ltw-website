@@ -55,15 +55,13 @@ nav ul li a {
 /*** ABOUT SECTION***/
 #about {
   text-align: center;
+  height: auto;
 }
 #about .full-width {
     padding: 20px 0;
 }
-#about .half-width {
-    padding: 50px 0;
-}
 #about h2 {
-    font-family:  'Alex brush', cursive;
+    font-family: 'Alex brush', cursive;
     color: #9376d2;
     font-size: 48px;
 }
@@ -164,6 +162,17 @@ h4 {
 /*** ABOUT PAGE ***/
 #experience {
   height: 500px;
+}
+#experience, #education, #personal  h2 {
+      font-family: 'Alex brush', cursive;
+      color: #9376d2;
+      font-size: 48px;
+}
+#experience, #education, #personal p {
+    font-size: 18px;
+    color: #9376d2;
+    line-height: 24px;
+    padding-right: 50px;
 }
 #education {
   background: #b3d7d3;
