@@ -187,3 +187,24 @@ h4 {
 #personal {
   height: 850px;
 }
+
+/*** WORK PAGE ***/
+#writing, #print, #web h3 {
+    font-family: 'Alex brush', cursive;
+    font-size: 24px;
+    color: #9376d2;
+}
+#writing, #print, #web p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #9376d2;
+    line-height: 24px;
+    padding-right: 50px;
+}
+#print {
+  height: 400px;
+  background: #b3d7d3;
+}
+#web {
+  height: 550px;
+}
