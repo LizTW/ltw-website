@@ -6,22 +6,25 @@ $(document).ready(function() {
   $('#answer').hide();
 
   magic8Ball.askQuestion = function(question) {
+    console.log(question);
     $('#answer').fadeIn(4000);
     var randomNumber = Math.random();
-    var randomNumberForListOfAnswers = randomNumber + this.listOfAnswers.length;
+    var randomNumberForListOfAnswers = randomNumber * this.listOfAnswers.length;
     var randomIndex = Math.floor(randomNumberForListOfAnswers);
     var answer = this.listOfAnswers[randomIndex];
     $('#answer').text(answer);
-    console.log(question);
     console.log(answer);
     $('#8ball').attr('src', 'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/answerside.png');
   };
 
   var onClick = function() {
+     $('#8ball').effect( 'shake' );
     $('#listOfAnswers').hide();
-    var question = prompt('Ask me ANYTHING!');
-    magic8Ball.askQuestion(question);
-    $('#8Ball').effect( 'shake' );
+    setTimeout(
+        function() {
+            var question = prompt('Ask me ANYTHING!')
+            magic8Ball.askQuestion(question)
+        }, 500);
   };
 
   $('#questionButton').click(onClick);
@@ -29,11 +32,5 @@ $(document).ready(function() {
 $('#answer').hide();
 
 $('#8ball').attr('src', 'https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png');
-
-   setTimeout(
-       function() {
-           var question = prompt('Ask me ANYTHING!')
-           magic8Ball.askQuestion(question)
-       }, 500);
 
 });
